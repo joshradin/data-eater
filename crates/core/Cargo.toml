@@ -1,0 +1,12 @@
+[package]
+name = "core"
+edition = "2021"
+version.workspace = true
+description.workspace = true
+readme.workspace = true
+license-file.workspace = true
+authors.workspace = true
+categories.workspace = true
+rust-version.workspace = true
+
+[dependencies]

@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.0.0"
+description = "Data eating and visualization"
+readme = "README.md"
+license-file = "LICENSE"
+authors = ["Joshua Radin <jradin16@gmail.com>"]
+categories = ["data", "web"]
+publish = false
+rust-version = "1.78.0"
