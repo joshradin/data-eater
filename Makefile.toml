@@ -1,0 +1,8 @@
+[tasks.autoinherit]
+category = "Workspace"
+description = "Automatically adds all common dependencies to the root workspace Cargo.toml"
+install_crate = "cargo-autoinherit"
+command = "cargo"
+args = ["autoinherit"]
+workspace = false
+

@@ -1,0 +1,25 @@
+[package]
+name = "data-eater-core"
+edition = "2021"
+version.workspace = true
+description.workspace = true
+readme.workspace = true
+license-file.workspace = true
+authors.workspace = true
+categories.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+bitfield = { workspace = true }
+chrono = { workspace = true, features = ["serde"] }
+indexmap = { workspace = true, features = ["serde"] }
+machine-uid = { workspace = true }
+serde = { workspace = true, features = ["derive"] }
+thiserror = { workspace = true }
+
+[dev-dependencies]
+criterion = { workspace = true, features = ["html_reports"] }
+
+[[bench]]
+name = "snowflakes"
+harness = false

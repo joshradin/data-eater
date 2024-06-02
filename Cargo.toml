@@ -11,3 +11,12 @@ authors = ["Joshua Radin <jradin16@gmail.com>"]
 categories = ["data", "web"]
 publish = false
 rust-version = "1.78.0"
+
+[workspace.dependencies]
+indexmap = "2.2.6"
+serde = "1.0.203"
+bitfield = "0.15.0"
+chrono = "0.4.38"
+criterion = "0.5.1"
+machine-uid = "0.5.1"
+thiserror = "1.0.61"
